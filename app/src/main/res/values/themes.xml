@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TaxiApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+    </style>
+
+    <style name="Theme.TaxiApp" parent="Base.Theme.TaxiApp" />
+    <style name="SplashTheme" parent="Theme.TaxiApp">
+        <item name="android:windowBackground">@drawable/splashscreen</item>
+    </style>
+</resources>
